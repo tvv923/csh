@@ -1,0 +1,50 @@
+[
+  {
+    "DoctorType": 1,
+    "Experiance": 15,
+    "Salary": 0.0,
+    "Name": "Джозеф",
+    "Phone": null,
+    "Email": null,
+    "Id": 35,
+    "Surname": "Гудман",
+    "CreatedAt": "2023-08-22T19:12:57.6705104+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "DoctorType": 2,
+    "Experiance": 20,
+    "Salary": 0.0,
+    "Name": "Гарольд",
+    "Phone": null,
+    "Email": null,
+    "Id": 36,
+    "Surname": "Лансер",
+    "CreatedAt": "2023-08-22T19:12:58.2298927+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "DoctorType": 3,
+    "Experiance": 21,
+    "Salary": 0.0,
+    "Name": "Дан",
+    "Phone": null,
+    "Email": null,
+    "Id": 37,
+    "Surname": "Грисаро",
+    "CreatedAt": "2023-08-22T19:12:58.2366536+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "DoctorType": 4,
+    "Experiance": 25,
+    "Salary": 0.0,
+    "Name": "Том",
+    "Phone": null,
+    "Email": null,
+    "Id": 38,
+    "Surname": "Джонс",
+    "CreatedAt": "2023-08-22T19:12:58.2419398+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "Patient": {
+      "IllnessType": 5,
+      "AdditionalInfo": null,
+      "Address": null,
+      "Name": "Іван",
+      "Phone": null,
+      "Email": null,
+      "Id": 37,
+      "Surname": "Іванов",
+      "CreatedAt": "2023-08-22T19:12:58.2572778+03:00",
+      "UpdatedAt": "0001-01-01T00:00:00"
+    },
+    "Doctor": {
+      "DoctorType": 1,
+      "Experiance": 15,
+      "Salary": 0.0,
+      "Name": "Джозеф",
+      "Phone": null,
+      "Email": null,
+      "Id": 35,
+      "Surname": "Гудман",
+      "CreatedAt": "2023-08-22T19:12:57.6705104+03:00",
+      "UpdatedAt": "0001-01-01T00:00:00"
+    },
+    "DateTimeFrom": "0001-01-01T00:00:00",
+    "DateTimeTo": "0001-01-01T00:00:00",
+    "Description": null,
+    "Id": 9,
+    "Surname": "",
+    "CreatedAt": "2023-08-22T19:13:15.9451844+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  }
+]

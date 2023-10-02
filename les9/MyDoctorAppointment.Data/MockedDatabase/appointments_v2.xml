@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAppointment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Appointment>
+    <Id>10</Id>
+    <Surname />
+    <CreatedAt>2023-08-22T19:13:57.352122+03:00</CreatedAt>
+    <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+    <Patient>
+      <Id>43</Id>
+      <Surname>Петров</Surname>
+      <CreatedAt>2023-08-22T19:13:43.9148569+03:00</CreatedAt>
+      <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+      <Name>Петро</Name>
+      <IllnessType>DentalDiseas</IllnessType>
+    </Patient>
+    <Doctor>
+      <Id>40</Id>
+      <Surname>Лансер</Surname>
+      <CreatedAt>2023-08-22T19:13:43.8387151+03:00</CreatedAt>
+      <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+      <Name>Гарольд</Name>
+      <DoctorType>Dermatologist</DoctorType>
+      <Experiance>20</Experiance>
+      <Salary>0</Salary>
+    </Doctor>
+    <DateTimeFrom>0001-01-01T00:00:00</DateTimeFrom>
+    <DateTimeTo>0001-01-01T00:00:00</DateTimeTo>
+  </Appointment>
+  <Appointment>
+    <Id>11</Id>
+    <Surname />
+    <CreatedAt>2023-08-22T19:14:09.7764634+03:00</CreatedAt>
+    <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+    <Patient>
+      <Id>46</Id>
+      <Surname>Тарасенко</Surname>
+      <CreatedAt>2023-08-22T19:13:43.9325178+03:00</CreatedAt>
+      <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+      <Name>Тарас</Name>
+      <IllnessType>SkinDiseas</IllnessType>
+    </Patient>
+    <Doctor>
+      <Id>42</Id>
+      <Surname>Джонс</Surname>
+      <CreatedAt>2023-08-22T19:13:43.8508873+03:00</CreatedAt>
+      <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+      <Name>Том</Name>
+      <DoctorType>Paramedic</DoctorType>
+      <Experiance>25</Experiance>
+      <Salary>0</Salary>
+    </Doctor>
+    <DateTimeFrom>0001-01-01T00:00:00</DateTimeFrom>
+    <DateTimeTo>0001-01-01T00:00:00</DateTimeTo>
+  </Appointment>
+</ArrayOfAppointment>

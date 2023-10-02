@@ -1,0 +1,62 @@
+[
+  {
+    "IllnessType": 5,
+    "AdditionalInfo": null,
+    "Address": null,
+    "Name": "Іван",
+    "Phone": null,
+    "Email": null,
+    "Id": 37,
+    "Surname": "Іванов",
+    "CreatedAt": "2023-08-22T19:12:58.2572778+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "IllnessType": 3,
+    "AdditionalInfo": null,
+    "Address": null,
+    "Name": "Петро",
+    "Phone": null,
+    "Email": null,
+    "Id": 38,
+    "Surname": "Петров",
+    "CreatedAt": "2023-08-22T19:12:58.2947567+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "IllnessType": 1,
+    "AdditionalInfo": null,
+    "Address": null,
+    "Name": "Василь",
+    "Phone": null,
+    "Email": null,
+    "Id": 39,
+    "Surname": "Василенко",
+    "CreatedAt": "2023-08-22T19:12:58.3008951+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "IllnessType": 2,
+    "AdditionalInfo": null,
+    "Address": null,
+    "Name": "Степан",
+    "Phone": null,
+    "Email": null,
+    "Id": 40,
+    "Surname": "Степаненко",
+    "CreatedAt": "2023-08-22T19:12:58.3053023+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "IllnessType": 4,
+    "AdditionalInfo": null,
+    "Address": null,
+    "Name": "Тарас",
+    "Phone": null,
+    "Email": null,
+    "Id": 41,
+    "Surname": "Тарасенко",
+    "CreatedAt": "2023-08-22T19:12:58.3091033+03:00",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  }
+]

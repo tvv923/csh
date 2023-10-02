@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDoctor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Doctor>
+    <Id>39</Id>
+    <Surname>Гудман</Surname>
+    <CreatedAt>2023-08-22T19:13:43.7138347+03:00</CreatedAt>
+    <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+    <Name>Джозеф</Name>
+    <DoctorType>Dentist</DoctorType>
+    <Experiance>15</Experiance>
+    <Salary>0</Salary>
+  </Doctor>
+  <Doctor>
+    <Id>40</Id>
+    <Surname>Лансер</Surname>
+    <CreatedAt>2023-08-22T19:13:43.8387151+03:00</CreatedAt>
+    <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+    <Name>Гарольд</Name>
+    <DoctorType>Dermatologist</DoctorType>
+    <Experiance>20</Experiance>
+    <Salary>0</Salary>
+  </Doctor>
+  <Doctor>
+    <Id>41</Id>
+    <Surname>Грисаро</Surname>
+    <CreatedAt>2023-08-22T19:13:43.8447397+03:00</CreatedAt>
+    <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+    <Name>Дан</Name>
+    <DoctorType>FamilyDoctor</DoctorType>
+    <Experiance>21</Experiance>
+    <Salary>0</Salary>
+  </Doctor>
+  <Doctor>
+    <Id>42</Id>
+    <Surname>Джонс</Surname>
+    <CreatedAt>2023-08-22T19:13:43.8508873+03:00</CreatedAt>
+    <UpdatedAt>0001-01-01T00:00:00</UpdatedAt>
+    <Name>Том</Name>
+    <DoctorType>Paramedic</DoctorType>
+    <Experiance>25</Experiance>
+    <Salary>0</Salary>
+  </Doctor>
+</ArrayOfDoctor>

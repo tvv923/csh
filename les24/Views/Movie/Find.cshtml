@@ -1,0 +1,51 @@
+﻿@model Movie
+
+<div class="container shadow p-5">
+    <div class="row pb-2">
+        <h2>Search Movie</h2>
+    </div>
+
+    <form method="post">
+        <div asp-validation-summary="All"></div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label>Name</label>
+                <input name="myName" type="text" class="form-control mb-3" placeholder="Enter Name">                
+            </div>
+            <div class="form-group col-md-6">
+                <label>Director</label>
+                <input name="director" class="form-control mb-3" placeholder="Enter Director">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label>Style</label>
+                <input name="style" type="text" class="form-control mb-3" placeholder="Enter Style">
+            </div>
+            <div class="form-group col-md-6 mb-3">
+                <label>Description</label>
+                <input name="description" type="text" class="form-control" placeholder="Enter Description">
+            </div>
+            <div class="form-group col-md-6 mb-3">
+                <label>ShowTime</label>
+                <input name="showTime" type="text" class="form-control" placeholder="Enter: 11, 13, 15, 17, 19, 21">
+            </div>
+        </div>        
+
+        <button type="submit" asp-controller="Search" asp-action="Index" class="btn btn-md btn-outline-primary p-2"><i class="bi bi-file-plus-fill"></i>Search</button>
+        <a asp-controller="Movie" asp-action="Index" class="btn btn-md btn-outline-warning p-2">Movie List</a>
+                
+    </form>
+
+</div>
+
+
+@*//for front end validations*@
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

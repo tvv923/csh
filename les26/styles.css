@@ -1,0 +1,117 @@
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden; 
+}
+
+header {
+    background-color: #00bbbb; 
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px; 
+    transition: border-radius 2s, transform 2s;
+}
+
+header:hover {
+    transform: rotateY(180deg); 
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; 
+}
+
+.portfolio-block {
+    max-width: 800px;
+    padding: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 100%;
+    max-width: 800px;
+    transform: scale(1);
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    transform-origin: center bottom;
+}
+
+.portfolio-block:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    z-index: 1;
+}
+
+.portfolio-block h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.weather {
+    background-color: #00bbbb;
+    color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    transform-origin: center bottom;
+}
+
+.weather:hover {
+    transform: scale(1.05); 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #00bbbb; 
+    color: #fff; 
+}
+
+footer {
+    background-color: #00bbbb; 
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    width: 10%;
+    animation: compressFooter 0.3s; 
+    transition: width 2s; 
+}
+
+footer:hover {
+    width: 100%; 
+}
+
+@keyframes compressFooter {
+    0% {
+        width: 100%; 
+    }
+    100% {
+        width: 10%;
+    }
+}
+
+.about {
+    background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0)), url('your-image-url-here');
+}
+
+.computer-science {
+    background: linear-gradient(rgba(255, 165, 0, 0.5), rgba(255, 165, 0, 0)), url('your-image-url-here');
+}
+
+.weather {
+    background: linear-gradient(rgba(255, 255, 0, 0.5), rgba(255, 255, 0, 0)), url('your-image-url-here');
+}
+
+.contact {
+    background: linear-gradient(rgba(128, 0, 128, 0.5), rgba(128, 0, 128, 0)), url('your-image-url-here');
+}
